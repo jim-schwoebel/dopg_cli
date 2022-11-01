@@ -1,4 +1,5 @@
 # DOpg
+![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/logo.png)
 ```
  _____   ____                 _____ _      _____ 
 |  __ \ / __ \               / ____| |    |_   _|
