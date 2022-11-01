@@ -96,6 +96,7 @@ This command opens up a postgres cluster, inserts a users schema, and inserts a 
 * [unittest](https://docs.python.org/3/library/unittest.html) - unit testing in python
 
 🐘 **Standard postgres references** that may help you:
+* [pgbench](https://www.postgresql.org/docs/current/pgbench.html) - pgbench can help you benchmark your database
 * [postgres](https://www.postgresql.org/) - official postgres website
 * [postgres14 features](https://severalnines.com/blog/best-new-features-in-postgresql-14) - why use postgres14 over postgres13
 
