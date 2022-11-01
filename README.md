@@ -72,11 +72,8 @@ python3 cli.py --command tests
 This command opens up a postgres cluster, inserts a users schema, and inserts a few pieces of data, reads this data, then deletes this data and schema. If tests passed they will be shown using the [unittest module](https://docs.python.org/3/library/unittest.html) in python.
 
 ## references
-Here are some additional (python-centric) references that may help you as you learn PostgresSQL, as a beginner or an expert:
-
+Here are some Python references that may help you as you learn PostgresSQL, as a beginner or an expert:
 * [postgres14 features](https://severalnines.com/blog/best-new-features-in-postgresql-14) - why use postgres14 over postgres13
-* [api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) - api docs with cuRL commands
-* [doctl docs](https://github.com/digitalocean/doctl) - the official command line client for digitalocean
 * [psycopg2 module](https://zetcode.com/python/psycopg2/) - for querying databases in python code
 * [pgcli](https://www.pgcli.com/) - command line interface for postgres 
 * [click](https://click.palletsprojects.com/en/8.1.x/) - click CLI docs
@@ -85,3 +82,10 @@ Here are some additional (python-centric) references that may help you as you le
 * [pgloader](https://github.com/dimitri/pgloader) - migrate to PostgreSQL in a single command
 * [asyncpg](https://github.com/MagicStack/asyncpg) - a fast PostgreSQL Database Client Library for Python/asyncio
 * [flask-migrate](https://github.com/miguelgrinberg/Flask-Migrate) - database migrations in flask
+
+DigitalOcean resources
+* [digitalocean database api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) - api docs with cuRL commands
+* [doctl docs](https://github.com/digitalocean/doctl) - the official command line client for digitalocean
+* [postgres community page](https://www.digitalocean.com/community/tags/digitalocean-managed-postgresql-database) - community page for managed postgresql databases
+* [managed databases page](https://www.digitalocean.com/products/managed-databases) - managed databases product page
+* [careers page](https://www.digitalocean.com/careers?gh_src=bc47f6b61us) - careers page (we're always hiring!)
