@@ -50,10 +50,7 @@ python3 cli.py --command docs
 ```
 
 ### api commands
-The DigitalOcean API is a great way to get json responses from common routes related to databases.
-
-API database docs can be found [here](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases).
-More on api docs here.
+[The DigitalOcean API](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) is a great way to get json responses from common routes related to databases.
 
 You can also get doctl docs using (pulls up doctl and api docs).
 ```
