@@ -81,7 +81,7 @@ Here are some additional (python-centric) references that may help you as you le
 * [pgcli](https://www.pgcli.com/) - command line interface for postgres 
 * [click](https://click.palletsprojects.com/en/8.1.x/) - click CLI docs
 * [rich](https://github.com/Textualize/rich) - a Python library for rich text and beautiful formatting in the terminal.
-* [SQLalchemy](https://www.sqlalchemy.org/) - database toolkit for python
+* [sqlalchemy](https://www.sqlalchemy.org/) - database toolkit for python
 * [pgloader](https://github.com/dimitri/pgloader) - migrate to PostgreSQL in a single command
 * [asyncpg](https://github.com/MagicStack/asyncpg) - a fast PostgreSQL Database Client Library for Python/asyncio
 * [flask-migrate](https://github.com/miguelgrinberg/Flask-Migrate) - database migrations in flask
