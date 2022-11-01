@@ -1,4 +1,5 @@
 <p align="center"><img src="https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/logo.png" alt="logo" width="300"></img></p>
+
 [![Python](https://img.shields.io/badge/python-v3.9+-blue.svg)]()
 [![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/jim-schwoebel/dopg_cli/issues)
