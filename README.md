@@ -72,7 +72,8 @@ python3 cli.py --command tests
 This command opens up a postgres cluster, inserts a users schema, and inserts a few pieces of data, reads this data, then deletes this data and schema. If tests passed they will be shown using the [unittest module](https://docs.python.org/3/library/unittest.html) in python.
 
 ## references
-Here are some Python references that may help you as you learn PostgresSQL, as a beginner or an expert:
+Here are some Python references that may help you as you learn PostgreSQL, as a beginner or an expert:
+* [postgres](https://www.postgresql.org/) - official postgres website
 * [postgres14 features](https://severalnines.com/blog/best-new-features-in-postgresql-14) - why use postgres14 over postgres13
 * [psycopg2 module](https://zetcode.com/python/psycopg2/) - for querying databases in python code
 * [pgcli](https://www.pgcli.com/) - command line interface for postgres 
