@@ -83,7 +83,7 @@ Here are some Python references that may help you as you learn PostgresSQL, as a
 * [asyncpg](https://github.com/MagicStack/asyncpg) - a fast PostgreSQL Database Client Library for Python/asyncio
 * [flask-migrate](https://github.com/miguelgrinberg/Flask-Migrate) - database migrations in flask
 
-DigitalOcean resources
+Here are some resources related DigitalOcean that may help you as you use this CLI client:
 * [digitalocean database api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) - api docs with cuRL commands
 * [doctl docs](https://github.com/digitalocean/doctl) - the official command line client for digitalocean
 * [postgres community page](https://www.digitalocean.com/community/tags/digitalocean-managed-postgresql-database) - community page for managed postgresql databases
