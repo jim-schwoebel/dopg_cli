@@ -21,7 +21,7 @@
 
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
 
-Uses [click](https://click.palletsprojects.com/en/8.1.x/) and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
+Uses [click](https://click.palletsprojects.com/en/8.1.x/), [pgcli](https://github.com/dbcli/pgcli) and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
 
 ## MacOS setup (<3 minutes)
 This first version has only been tested on MacOS.
