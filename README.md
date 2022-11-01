@@ -16,8 +16,7 @@ Uses [click](https://click.palletsprojects.com/en/8.1.x/) and [rich](https://git
 
 ## setup 
 ```
-brew install doctl, python3
-doctl init
+brew install python3, doctl
 ```
 now install python dependencies within a virtual environment
 ```
