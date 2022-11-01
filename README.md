@@ -1,4 +1,4 @@
-# DOpg: a python client for DigitalOcean postgres clusters
+# DOpg
 ```
  _____   ____                 _____ _      _____ 
 |  __ \ / __ \               / ____| |    |_   _|
