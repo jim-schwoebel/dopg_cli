@@ -15,6 +15,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/jim-schwoebel/dopg_cli/issues)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/jim-schwoebel/dopg_cli/issues)
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Follow](https://img.shields.io/github/followers/jim-schwoebel?style=social)]([https://jim-schwoebel](https://github.com/jim-schwoebel?tab=followers))
 &nbsp;
 
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
