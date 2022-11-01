@@ -12,7 +12,7 @@
 ```
 [![Python](https://img.shields.io/badge/python-v3.9+-blue.svg)]()
 [![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)]()
-[![GitHub Issues](https://github.com/jim-schwoebel/dopg_cli/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/jim-schwoebel/dopg_cli/issues)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/jim-schwoebel/dopg_cli/issues)
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0.html)
 &nbsp;
