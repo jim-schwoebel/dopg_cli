@@ -62,3 +62,11 @@ You can get pricing of managed databases within digitalocean using public links:
 ```
 python3 cli.py --command pricing
 ```
+
+### test 
+You can do some smoke tests on newly created databases with the following command:
+```
+python3 cli.py --command tests
+```
+
+This command opens up a postgres cluster, inserts a users schema, and inserts a few pieces of data, reads this data, then deletes this data and schema. If tests passed they will be shown using the [unittest module](https://docs.python.org/3/library/unittest.html) in python.
