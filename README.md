@@ -26,11 +26,11 @@ Uses [click](https://click.palletsprojects.com/en/8.1.x/), [pgcli](https://githu
 ## MacOS setup (<3 minutes)
 This first version has only been tested on MacOS.
 
-First, install python3 and doctl [using homebrew](https://brew.sh/).
+First, install python3 and doctl [using homebrew](https://brew.sh/):
 ```
 brew install python3, doctl
 ```
-Next, install python dependencies within a virtual environment
+Next, install python dependencies within a virtual environment:
 ```
 git clone 
 cd 
@@ -38,7 +38,7 @@ virtualenv env
 source env/bin/activate
 pip3 install -r requirements.txt
 ```
-Next, you can setup the cli (you will need your api key and must have already created a managed database postgres instance).
+Next, you can setup the cli (you will need your api key and must have already created a managed database postgres instance):
 ```
 python3 cli.py
 ```
