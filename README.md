@@ -12,6 +12,8 @@
 
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
 
+Uses [click](https://click.palletsprojects.com/en/8.1.x/) and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases.
+
 ## setup 
 ```
 brew install doctl, python3
