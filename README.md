@@ -14,7 +14,9 @@
 
 Uses [click](https://click.palletsprojects.com/en/8.1.x/) and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
 
-## setup (<3 minutes)
+## MacOS setup (<3 minutes)
+This first version has only been tested on MacOS; if valuable future releases will incorporate a Linux readme.
+
 First, install python3 and doctl [using homebrew](https://brew.sh/).
 ```
 brew install python3, doctl
