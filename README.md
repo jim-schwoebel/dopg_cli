@@ -12,7 +12,7 @@
 
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
 
-Uses [click](https://click.palletsprojects.com/en/8.1.x/) and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases.
+Uses [click](https://click.palletsprojects.com/en/8.1.x/) and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
 
 ## setup (<3 minutes)
 First, install python3 and doctl [using homebrew](https://brew.sh/).
@@ -70,3 +70,18 @@ python3 cli.py --command tests
 ```
 
 This command opens up a postgres cluster, inserts a users schema, and inserts a few pieces of data, reads this data, then deletes this data and schema. If tests passed they will be shown using the [unittest module](https://docs.python.org/3/library/unittest.html) in python.
+
+## references
+Here are some additional (python-centric) references that may help you as you learn PostgresSQL, as a beginner or an expert:
+
+* [postgres14 features](https://severalnines.com/blog/best-new-features-in-postgresql-14) - why use postgres14 over postgres13
+* [api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) - api docs with cuRL commands
+* [doctl docs](https://github.com/digitalocean/doctl) - the official command line client for digitalocean
+* [psycopg2 module](https://zetcode.com/python/psycopg2/) - for querying databases in python code
+* [pgcli](https://www.pgcli.com/) - command line interface for postgres 
+* [click](https://click.palletsprojects.com/en/8.1.x/) - click CLI docs
+* [rich](https://github.com/Textualize/rich) - a Python library for rich text and beautiful formatting in the terminal.
+* [SQLalchemy](https://www.sqlalchemy.org/) - database toolkit for python
+* [pgloader](https://github.com/dimitri/pgloader) - migrate to PostgreSQL in a single command
+* [asyncpg](https://github.com/MagicStack/asyncpg) - a fast PostgreSQL Database Client Library for Python/asyncio
+* [flask-migrate](https://github.com/miguelgrinberg/Flask-Migrate) - database migrations in flask
