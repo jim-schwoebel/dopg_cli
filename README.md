@@ -34,6 +34,9 @@ Next, you can setup the cli (you will need your api key and must have already cr
 ```
 python3 cli.py
 ```
+
+![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/setup.gif)
+
 After this, you will see ```settings.json``` and ```databases.json``` in your dopg_cli directory that will be used to configure all the commands that follow. 
 
 ## commands 
