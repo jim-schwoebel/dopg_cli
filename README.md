@@ -1,14 +1,14 @@
 <p align="center"><img src="https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/logo.png" alt="logo" width="300"></img></p>
 
 ```
-                            _____   ____                 _____ _      _____ 
-                           |  __ \ / __ \               / ____| |    |_   _|
-                           | |  | | |  | |_ __   __ _  | |    | |      | |  
-                           | |  | | |  | | '_ \ / _` | | |    | |      | |  
-                           | |__| | |__| | |_) | (_| | | |____| |____ _| |_ 
-                           |_____/ \____/| .__/ \__, |  \_____|______|_____|
-                                         | |     __/ |                      
-                                         |_|    |___/                       
+ _____   ____                 _____ _      _____ 
+|  __ \ / __ \               / ____| |    |_   _|
+| |  | | |  | |_ __   __ _  | |    | |      | |  
+| |  | | |  | | '_ \ / _` | | |    | |      | |  
+| |__| | |__| | |_) | (_| | | |____| |____ _| |_ 
+|_____/ \____/| .__/ \__, |  \_____|______|_____|
+              | |     __/ |                      
+              |_|    |___/                                          
 ```
 
 [![Python](https://img.shields.io/badge/python-v3.9+-blue.svg)]()
@@ -19,6 +19,7 @@
 [![Follow me](https://img.shields.io/github/followers/jim-schwoebel?style=social)]([https://jim-schwoebel](https://github.com/jim-schwoebel?tab=followers))
 &nbsp;
 
+# DOpg CLI
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
 
 Uses [click](https://click.palletsprojects.com/en/8.1.x/), [pgcli](https://github.com/dbcli/pgcli), and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
