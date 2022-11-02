@@ -37,7 +37,7 @@ python3 cli.py
 
 ![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/setup.gif)
 
-After this, you will see ```settings.json``` and ```databases.json``` in your dopg_cli directory that will be used to configure all the commands that follow. 
+After this, you will see ```settings.json``` and ```databases.json``` in your dopg_cli directory used to configure all the commands that follow. 
 
 ## commands 
 There are 3 main ways to use the DOpg CLI client, sectioned out below.
