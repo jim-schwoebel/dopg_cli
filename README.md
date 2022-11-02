@@ -24,7 +24,7 @@ brew install python3, doctl
 Next, install python dependencies within a virtual environment:
 ```
 git clone 
-cd 
+cd dopg_cli
 virtualenv env 
 source env/bin/activate
 pip3 install -r requirements.txt
