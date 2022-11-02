@@ -126,5 +126,6 @@ Note: you should probably only use this on a newly created database.
 * [careers page](https://www.digitalocean.com/careers?gh_src=bc47f6b61us) - careers page (we're always hiring!)
 * [digitalocean database api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) - api docs with cuRL commands
 * [doctl docs](https://github.com/digitalocean/doctl) - the official command line client for digitalocean
+* [hacktoberfest](https://hacktoberfest.com/) - DigitalOcean's annual hack-a-thon in October every year (open to anyone)
 * [managed databases page](https://www.digitalocean.com/products/managed-databases) - managed databases product page
 * [postgres community page](https://www.digitalocean.com/community/tags/digitalocean-managed-postgresql-database) - community page for managed postgresql databases
