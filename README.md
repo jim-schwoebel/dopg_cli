@@ -1,15 +1,5 @@
 <p align="center"><img src="https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/logo.png" alt="logo" width="300"></img></p>
-
-```
- _____   ____                 _____ _      _____ 
-|  __ \ / __ \               / ____| |    |_   _|
-| |  | | |  | |_ __   __ _  | |    | |      | |  
-| |  | | |  | | '_ \ / _` | | |    | |      | |  
-| |__| | |__| | |_) | (_| | | |____| |____ _| |_ 
-|_____/ \____/| .__/ \__, |  \_____|______|_____|
-              | |     __/ |                      
-              |_|    |___/                                          
-```
+<p align="center"><img src="https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/logo_2.png" alt="logo" width="300"></img></p>
 
 [![Python](https://img.shields.io/badge/python-v3.9+-blue.svg)]()
 [![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)]()
