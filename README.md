@@ -1,3 +1,4 @@
+# DOpg CLI
 <p align="center"><img src="https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/logo.png" alt="logo" width="300"></img></p>
 <p align="center"><img src="https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/logo_2.png" alt="logo" width="500"></img></p>
 
@@ -10,7 +11,6 @@
 [![Follow me](https://img.shields.io/github/followers/jim-schwoebel?style=social)]([https://jim-schwoebel](https://github.com/jim-schwoebel?tab=followers))
 &nbsp;
 
-# DOpg CLI
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
 
 Uses [click](https://click.palletsprojects.com/en/8.1.x/), [pgcli](https://github.com/dbcli/pgcli), and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
