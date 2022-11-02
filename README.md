@@ -101,7 +101,7 @@ python3 cli.py --command tests
 
 This command opens up a postgres cluster, inserts a users schema, and inserts a few pieces of data, reads this data, then deletes this data and schema. If tests passed they will be shown using the [unittest module](https://docs.python.org/3/library/unittest.html) in python.
 
-<span style="color:blue">**Note:**</span> you should probably only use this on a newly created database.
+<p style="color:blue">**Note:**</p> you should probably only use this on a newly created database.
 
 ## references
 🐍 **Python modules** that may help you as you build PostgreSQL applications, as a beginner or an expert:
