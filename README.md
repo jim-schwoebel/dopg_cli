@@ -23,7 +23,7 @@ brew install python3, doctl
 ```
 Next, install python dependencies within a virtual environment:
 ```
-git clone 
+git clone https://github.com/jim-schwoebel/dopg_cli.git
 cd dopg_cli
 virtualenv env 
 source env/bin/activate
