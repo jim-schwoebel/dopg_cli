@@ -41,6 +41,8 @@ There are 3 main ways to use the DOpg CLI client, sectioned out below.
 ### query databases
 Connects with BSD-licensed [pgcli](https://github.com/dbcli/pgcli), a really nice interface to connect to postgres and query postgres databases.
 
+![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/query.gif)
+
 ### doctl commands
 [doctl](https://github.com/digitalocean/doctl) is the python command line interface.
 
