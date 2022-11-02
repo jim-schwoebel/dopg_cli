@@ -39,41 +39,56 @@ After this, you will see ```settings.json``` and ```databases.json``` in your do
 There are 3 main ways to use the DOpg CLI client, sectioned out below.
 
 ### query databases
-Connects with BSD-licensed [pgcli](https://github.com/dbcli/pgcli), a really nice interface to connect to postgres and query postgres databases.
+```
+python3 cli.py --command query
+```
+
+Connects with [pgcli](https://github.com/dbcli/pgcli), a really nice interface to connect to postgres and query postgres databases (e.g. with autocompletion).
 
 ![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/query.gif)
 
 ### doctl commands
-[doctl](https://github.com/digitalocean/doctl) is the python command line interface.
-
-More on doctl database docs here.
-
-You can also get doctl docs using (pulls up doctl and api docs).
+You can also get [doctl docs](https://github.com/digitalocean/doctl) and [api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) with this command:
 ```
 python3 cli.py --command docs
 ```
+
+Note that doctl is the python command line interface for digitalocean.
 
 ### api commands
 [The DigitalOcean API](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) is a great way to get json responses from common routes related to databases.
 
-You can also get doctl docs using (pulls up doctl and api docs).
+Put into a table of commands
 ```
-python3 cli.py --command docs
+Commands tba
 ```
 
 ### pricing
 You can get pricing of managed databases within digitalocean using public links:
+
 ```
 python3 cli.py --command pricing
 ```
 
-### test 
+### benchmarking
+WIP - working on adding benchmarking for your configured postgres database:
+
+```
+python3 cli.py --command benchmark
+```
+
+Note: you should probably only use this on a newly created database.
+
+### tests
 You can do some smoke tests on newly created databases with the following command:
+
 ```
 python3 cli.py --command tests
 ```
 
 This command opens up a postgres cluster, inserts a users schema, and inserts a few pieces of data, reads this data, then deletes this data and schema. If tests passed they will be shown using the [unittest module](https://docs.python.org/3/library/unittest.html) in python.
+
+Note: you should probably only use this on a newly created database.
 
 ## references
 🐍 **Python modules** that may help you as you build PostgreSQL applications, as a beginner or an expert:
