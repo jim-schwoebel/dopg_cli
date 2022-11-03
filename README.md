@@ -21,7 +21,7 @@ Some things that DOpg can do include:
 - [query databases](https://github.com/jim-schwoebel/dopg_cli/blob/main/README.md#query-databases) directly through a nice autocompletion widget 
 - cache doctl/api responses (within a cache_limit) so you don't need to log this elsewhere
 - get postgres doctl and api docs from DigitalOcean for easy access
-- visualize api responses in a more intuitive way (e.g. in tables and pretty printed json)
+- visualize api responses in an intuitive and beautiful way (e.g. in tables and pretty printed json)
 - benchmark new postgres databases on digitalocean with standard tools
 - run smoke tests with commmon commands on your postgres database
 
