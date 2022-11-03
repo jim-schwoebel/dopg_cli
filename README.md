@@ -13,7 +13,9 @@
 
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
 
-Uses [click](https://click.palletsprojects.com/en/8.1.x/), [pgcli](https://github.com/dbcli/pgcli), and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. Easily extend this framework to fit your particular use case.
+Uses [click](https://click.palletsprojects.com/en/8.1.x/), [pgcli](https://github.com/dbcli/pgcli), and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
+
+You can easily extend this framework to fit your particular use case.
 
 Some things that DOpg can do include:
 - query databases directly through a nice autocompletion widget 
