@@ -31,6 +31,10 @@ First, install python3 and doctl [using homebrew](https://brew.sh/):
 ```
 brew install python3, doctl
 ```
+Now that doctl is installed, initialize it with an auth token:
+```
+doctl auth init
+```
 Next, install python dependencies within a virtual environment:
 ```
 git clone https://github.com/jim-schwoebel/dopg_cli.git
