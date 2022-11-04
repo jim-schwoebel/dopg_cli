@@ -19,7 +19,7 @@ You can easily extend this framework to fit your particular use case.
 
 Some things that DOpg can do include:
 - [query databases](https://github.com/jim-schwoebel/dopg_cli/blob/main/README.md#query-databases) directly through a nice autocompletion widget 
-- cache doctl/api responses in ```api_response.json``` and ``output.json``` in core folder so you don't need to log this elsewhere
+- cache doctl/api responses in ```api_response.json``` and ```output.json``` in core folder so you don't need to log this elsewhere
 - [get postgres doctl and api docs]() from DigitalOcean for easy access
 - [visualize api responses]() in an intuitive and beautiful way (e.g. in tables and pretty printed json)
 
