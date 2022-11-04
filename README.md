@@ -177,8 +177,12 @@ And it should output something like:
 │                                                     │                                                         │        │                                                         │                                                         │
 │                                                     │                                                         │        │                                                         │                                                         │
 └─────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────┴────────┴─────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────┘
-jim@C02GF4RHMD6R dopg_cli % clear 
 ```
+And then you can run any of these commands in snake or camel case; for example:
+```
+python3 cli.py --command api --route list_database_options
+```
+
 ![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/api.gif)
 
 ### docs
