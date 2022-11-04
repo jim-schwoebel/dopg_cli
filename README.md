@@ -460,7 +460,7 @@ And then you can run any of these commands in snake case (in the 'Route' column 
 python3 cli.py --command api --route list_firewall_rules_for_a_database
 ```
 Outputs pretty printed json:
-```
+```json
 {
   "rules": [
     {
