@@ -26,7 +26,7 @@
 
 repository name: DOpg CLI
 repository version: 1.0 
-repository link: https://github.internal.digitalocean.com/jschwoebel/dopg-cli
+repository link: https://github.com/jim-schwoebel/dopg_cli
 author: Jim Schwoebel 
 role: Engineering manager
 author contact: jschwoebel@digitalocean.com 
