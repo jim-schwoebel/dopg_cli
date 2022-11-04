@@ -8,7 +8,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/jim-schwoebel/dopg_cli/issues)
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20DOpg,%20an%20awesome%20new%20CLI%20framework%20for%20postgres%20on%20@DigitalOcean%20https://github.com/jim-schwoebel/dopg_cli&hashtags=digitalocean,postgres,doctl,do) 
-[![Follow me](https://img.shields.io/github/followers/jim-schwoebel?style=social)]([https://jim-schwoebel](https://github.com/jim-schwoebel?tab=followers))
+[![Follow me](https://img.shields.io/github/followers/jim-schwoebel?style=social)]([https://github.com/jim-schwoebel](https://github.com/jim-schwoebel?tab=followers))
 &nbsp;
 
 🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
