@@ -70,18 +70,12 @@ except:
 @click.command()
 @click.option("--command", help="command to operate on database_id or user account")
 @click.option("--api_key", help="API key for your digitalocean account", default=settings['api_token'])
-
-# can work on this list of commands 
-@click.option("--database_id", help="Database uuid for your cluster that you want to operate on", default=settings['database_metadata']['id'])
 @click.option("--route", help="Specify api route here")
-@click.option("--routes", help="List all api routes from API as options that can be used as --route flag")
-@click.option("--test", help="Smoke test on a new database to insert/edit/delete a users table to see how things work")
-@click.option("--schema", help="schema for defined postgres cluster")
 
 # benchmarking?
 # test? 
     
-def api_init(command, api_key, database_id, route, routes, test, schema):
+def api_init(command, api_key, route):
     # actual api response/description routes
     if command == 'init':
         get_settings.reload()
