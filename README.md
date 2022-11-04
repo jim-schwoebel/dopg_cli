@@ -76,7 +76,7 @@ To get a tabular list of possible commands, follow:
 ```
 python3 cli.py --command api --route help
 ```
-And it should output something like:
+And it should output [api doc commands as of 2022-11-04](https://docs.digitalocean.com/reference/api/api-reference/#operation/databases_delete_connectionPool) - something like:
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ Route                                        ┃ Description                                  ┃ Method ┃ Sample                                        ┃ Payload                                      ┃
