@@ -1,0 +1,7 @@
+ast
+click
+markdownify 
+pyfiglet
+requests
+rich
+webbrowser
