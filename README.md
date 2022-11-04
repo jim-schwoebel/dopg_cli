@@ -457,7 +457,21 @@ And it should output [api doc commands as of 2022-11-04](https://docs.digitaloce
 ```
 And then you can run any of these commands in snake case (in the 'Route' column above); for example:
 ```
-python3 cli.py --command api --route list_database_options
+python3 cli.py --command api --route list_firewall_rules_for_a_database
+```
+Outputs pretty printed json:
+```
+{
+  "rules": [
+    {
+      "uuid": "41f1b3b4-a481-4ca7-8d92-f643a3606ac6",
+      "cluster_uuid": "e4f7e56e-2c29-4de1-b937-965bd2e20e9d",
+      "type": "ip_addr",
+      "value": "115.206.82.140",
+      "created_at": "2022-11-04T19:24:43Z"
+    }
+  ]
+}
 ```
 
 ![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/api.gif)
