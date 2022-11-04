@@ -455,7 +455,7 @@ And it should output [api doc commands as of 2022-11-04](https://docs.digitaloce
 │                                              │                                              │        │                                               │                                              │
 └──────────────────────────────────────────────┴──────────────────────────────────────────────┴────────┴───────────────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
-And then you can run any of these commands in snake or camel case; for example:
+And then you can run any of these commands in snake case (in the 'Route' column above); for example:
 ```
 python3 cli.py --command api --route list_database_options
 ```
