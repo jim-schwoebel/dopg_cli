@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/users/{username}", 
+	"description": "To remove a specific database user, send a DELETE request to /v2/databases/$DATABASE_ID/users/$USERNAME. A status of 204 will be given. This indicates that the request was processed successfully, but that no response body is needed. Note: User management is not supported for Redis clusters.", 
+	"method": "DEL", 
+	"sample": "curl -X DELETE -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/users/$DATABASE_USER'", 
+	"payload": {}
+}

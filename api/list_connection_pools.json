@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/pools", 
+	"description": "To list all of the connection pools available to a PostgreSQL database cluster, send a GET request to /v2/databases/$DATABASE_ID/pools. The result will be a JSON object with a pools key. This will be set to an array of connection pool objects.", 
+	"method": "GET", 
+	"sample": "curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/pools'", 
+	"payload": {}
+}

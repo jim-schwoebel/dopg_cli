@@ -1,0 +1,92 @@
+'''
+ __  __  __  __  __  __  __  __  __  __  __  __  __  __  __  __  __ 
+                                                                                                                                    
+ _____   ____                 _____ _      _____ 
+|  __ \ / __ \               / ____| |    |_   _|
+| |  | | |  | |_ __   __ _  | |    | |      | |  
+| |  | | |  | | '_ \ / _` | | |    | |      | |  
+| |__| | |__| | |_) | (_| | | |____| |____ _| |_ 
+|_____/ \____/| .__/ \__, |  \_____|______|_____|
+              | |     __/ |                      
+              |_|    |___/                       
+
+                                      _                                   
+ /\    _   |_|_  _  _    _|. _ _ |_  (_ _  _   _|. _ .|_ _ | _  _ _ _  _  
+/--\  |_)\/|_| )(_)| )  (_||(-| )|_  | (_)|   (_||(_)||_(_||(_)(_(-(_|| ) 
+      |  /                                        _/                      
+                                      
+ _  _  _|_ _  _ _ _   _|    _|_ _ _ _ 
+|_)(_)_)|_(_)| (-_)  (_||_|_)|_(-| _) 
+|         _/                                                                                       
+ __  __  __  __  __  __  __  __  __  __  __  __  __  __  __  __  __ 
+
+================================================ 
+                 ABOUT                     
+================================================ 
+
+repository name: DOpg CLI
+repository version: 1.0 
+repository link: https://github.internal.digitalocean.com/jschwoebel/dopg-cli
+author: Jim Schwoebel 
+role: Engineering manager
+author contact: jschwoebel@digitalocean.com 
+description: the DOpg CLI is a postgres command line interface for interacting with DigitalOcean's postgres managed db offering. 
+license category: opensource 
+license: Apache 2.0 license 
+organization name: DigitalOcean 
+location: Boston, MA 
+website: https://digitalocean.com 
+release date: 2022-10-27 
+
+================================================ 
+                LICENSE TERMS                      
+================================================ 
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+
+     http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License. 
+'''
+import os, click, rich, json, datetime, time
+from helpers import welcome, api_commands, get_settings
+
+try:
+    # load settings if they exist, assuming they work.
+    settings = json.load(open('settings.json'))
+
+except:
+    # reload settings
+    get_settings.reload()
+    settings = json.load(open('settings.json'))
+
+# api_commands.get_description('database_list', settings) - list will grow
+@click.command()
+@click.option("--command", help="command to operate on database_id or user account")
+@click.option("--api_key", help="API key for your digitalocean account", default=settings['api_token'])
+
+# can work on this list of commands 
+@click.option("--database_id", help="Database uuid for your cluster that you want to operate on", default=settings['database_metadata']['id'])
+@click.option("--route", help="Specify api route here")
+@click.option("--routes", help="List all api routes from API as options that can be used as --route flag")
+@click.option("--test", help="Smoke test on a new database to insert/edit/delete a users table to see how things work")
+@click.option("--schema", help="schema for defined postgres cluster")
+
+# benchmarking?
+# test? 
+    
+def api_init(command, api_key, database_id, route, routes, test, schema):
+    # actual api response/description routes
+    if command == 'init':
+        get_settings.reload()
+    else:
+        api_commands.get_response(command, settings, route)
+
+if __name__ == '__main__':
+    api_init()

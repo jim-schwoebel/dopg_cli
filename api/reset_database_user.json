@@ -1,0 +1,8 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/users/{username}/reset_auth", 
+	"description": "To reset the password for a database user, send a POST request to /v2/databases/$DATABASE_ID/users/$USERNAME/reset_auth. For mysql databases, the authentication method can be specifying by including a key in the JSON body called mysql_settings with the auth_plugin value specified. The response will be a JSON object with a user key. This will be set to an object containing the standard database user attributes.", 
+	"method": "POST", 
+	"sample": "curl -X POST -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/users/$DATABASE_USER/reset_auth'", 
+	"payload": {}
+}
+

@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/pools/{pool_name}", 
+	"description": "To delete a specific connection pool for a PostgreSQL database cluster, send a DELETE request to /v2/databases/$DATABASE_ID/pools/$POOL_NAME. A status of 204 will be given. This indicates that the request was processed successfully, but that no response body is needed.", 
+	"method": "DEL", 
+	"sample": "curl -X DELETE -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/pools/$CONNECTION_POOL_NAME'", 
+	"payload": {}
+}

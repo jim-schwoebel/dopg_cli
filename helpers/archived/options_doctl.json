@@ -1,0 +1,9 @@
+{
+	"name": "any string", 
+	"engine": "doctl databases options slugs --engine pg", 
+	"version": "doctl databases options versions --engine pg", 
+	"region": "doctl databases options regions --engine pg", 
+	"size": "doctl databases options slugs --engine pg",
+	"num_nodes": [1,2,3], 
+	"tags": ["list of any strings"]
+}

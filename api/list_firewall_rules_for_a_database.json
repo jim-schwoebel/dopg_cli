@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/firewall", 
+	"description": "To list all of a database cluster's firewall rules (known as trusted sources in the control panel), send a GET request to /v2/databases/$DATABASE_ID/firewall. The result will be a JSON object with a rules key.", 
+	"method": "GET", 
+	"sample": "curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/firewall'", 
+	"payload": {}
+}

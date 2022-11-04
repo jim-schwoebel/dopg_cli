@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/replicas/{replica_name}", 
+	"description": "To destroy a specific read-only replica, send a DELETE request to /v2/databases/$DATABASE_ID/replicas/$REPLICA_NAME. Note: Read-only replicas are not supported for Redis clusters. A status of 204 will be given. This indicates that the request was processed successfully, but that no response body is needed.", 
+	"method": "DEL", 
+	"sample": "curl -X DELETE -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/replicas/$DATABASE_REPLICA_NAME'", 
+	"payload": {}
+}

@@ -1,0 +1,8 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}", 
+	"description": "To show information about an existing database cluster, send a GET request to /v2/databases/$DATABASE_ID. The response will be a JSON object with a database key. This will be set to an object containing the standard database cluster attributes. The embedded connection and private_connection objects will contain the information needed to access the database cluster. The embedded maintenance_window object will contain information about any scheduled maintenance for the database cluster.", 
+	"method": "GET", 
+	"sample": "curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID'", 
+	"payload": {}
+}
+

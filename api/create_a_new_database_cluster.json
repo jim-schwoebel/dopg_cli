@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases", 
+	"description": "To create a database cluster, send a POST request to /v2/databases. The response will be a JSON object with a key called database. The value of this will be an object that contains the standard attributes associated with a database cluster. The initial value of the database cluster's status attribute will be creating. When the cluster is ready to receive traffic, this will transition to online. The embedded connection and private_connection objects will contain the information needed to access the database cluster. DigitalOcean managed PostgreSQL and MySQL database clusters take automated daily backups. To create a new database cluster based on a backup of an existing cluster, send a POST request to /v2/databases. In addition to the standard database cluster attributes, the JSON body must include a key named backup_restore with the name of the original database cluster and the timestamp of the backup to be restored. Creating a database from a backup is the same as forking a database in the control panel. Note: Backups are not supported for Redis clusters.", 
+	"method": "POST", 
+	"sample": "curl -X POST -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' -d '$PAYLOAD' 'https://api.digitalocean.com/v2/databases'", 
+	"payload": {"name": "backend-test", "engine": "pg", "version": "14", "region": "nyc3", "size": "db-s-2vcpu-4gb", "num_nodes": 2, "tags": ["production"]}
+}

@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/resize", 
+	"description": "To resize a database cluster, send a PUT request to /v2/databases/$DATABASE_ID/resize. The body of the request must specify both the size and num_nodes attributes. A successful request will receive a 202 Accepted status code with no body in response. Querying the database cluster will show that its status attribute will now be set to resizing. This will transition back to online when the resize operation has completed.", 
+	"method": "PUT", 
+	"sample": "curl -X PUT -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' -d '$PAYLOAD' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/resize'", 
+	"payload": {"size":"db-s-4vcpu-8gb", "num_nodes":3}
+}

@@ -1,0 +1,40 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/config", 
+	"description": "To update the configuration for an existing database cluster, send a PATCH request to /v2/databases/$DATABASE_ID/config.", 
+	"method": "PATCH", 
+	"sample": "curl -X PATCH -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' -d '$PAYLOAD' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/config'", 
+	"payload": {"config": {
+						    "autovacuum_naptime": 60,
+						    "autovacuum_vacuum_threshold": 50,
+						    "autovacuum_analyze_threshold": 50,
+						    "autovacuum_vacuum_scale_factor": 0.2,
+						    "autovacuum_analyze_scale_factor": 0.2,
+						    "autovacuum_vacuum_cost_delay": 20,
+						    "autovacuum_vacuum_cost_limit": -1,
+						    "bgwriter_flush_after": 512,
+						    "bgwriter_lru_maxpages": 100,
+						    "bgwriter_lru_multiplier": 2,
+						    "idle_in_transaction_session_timeout": 0,
+						    "jit": true,
+						    "log_autovacuum_min_duration": -1,
+						    "log_min_duration_statement": -1,
+						    "max_prepared_transactions": 0,
+						    "max_parallel_workers": 8,
+						    "max_parallel_workers_per_gather": 2,
+						    "temp_file_limit": -1,
+						    "wal_sender_timeout": 60000,
+						    "pgbouncer": {
+						      "server_reset_query_always": false,
+						      "min_pool_size": 0,
+						      "server_idle_timeout": 0,
+						      "autodb_pool_size": 0,
+						      "autodb_max_db_connections": 0,
+						      "autodb_idle_timeout": 0
+						    },
+						    "backup_hour": 21,
+						    "backup_minute": 40,
+						    "timescaledb": {},
+						    "stat_monitor_enable": false
+						  }
+			}
+}

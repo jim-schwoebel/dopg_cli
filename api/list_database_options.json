@@ -1,0 +1,7 @@
+{
+    "route": "https://api.digitalocean.com/v2/databases/options",
+    "description": "To list all of the options available for the offered database engines, send a GET request to /v2/databases/options. The result will be a JSON object with an options key.",
+    "method": "GET",
+    "sample": "curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases'",
+    "payload": {}
+}

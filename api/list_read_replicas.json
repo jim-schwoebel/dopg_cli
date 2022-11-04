@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/replicas", 
+	"description": "To list all of the read-only replicas associated with a database cluster, send a GET request to /v2/databases/$DATABASE_ID/replicas. Note: Read-only replicas are not supported for Redis clusters. The result will be a JSON object with a replicas key. This will be set to an array of database replica objects, each of which will contain the standard database replica attributes.", 
+	"method": "GET", 
+	"sample": "curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/replicas'", 
+	"payload": {}
+}

@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/online-migration", 
+	"description": "To retrieve the status of the most recent online migration, send a GET request to /v2/databases/$DATABASE_ID/online-migration.", 
+	"method": "GET", 
+	"sample": "curl -X PUT -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' -d '$PAYLOAD' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/online-migration'", 
+	"payload": {"source":{},"disable_ssl":false}
+}

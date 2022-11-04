@@ -1,0 +1,9 @@
+{
+	"name": "any string", 
+	"engine": ["pg"], 
+	"version": ["14"], 
+	"region": ["nyc1", "nyc3", "am3", "sfo3", "sgp1", "lon1", "fra1", "tor1", "blr1"], 
+	"size": ["db-s-1vcpu-2gb", "db-s-2vcpu-4gb", "db-s-4vcpu-8gb", "db-s-6vcpu-16gb", "db-s-8vcpu-32gb", "gd-16vcpu-64gb", "gd-2vcpu-8gb", "gd-32vcpu-128gb", "gd-40vcpu-160gb", "gd-4vcpu-16gb", "gd-8vcpu-32gb", "so1_5-16vcpu-128gb", "so1_5-24vcpu-192gb","so1_5-2vcpu-16gb", "so1_5-32vcpu-256gb","so1_5-4vcpu-32gb","so1_5-8vcpu-64gb"],
+	"num_nodes": [1,2,3], 
+	"tags": ["list of any strings"]
+}

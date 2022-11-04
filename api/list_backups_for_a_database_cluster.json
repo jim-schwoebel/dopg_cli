@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/backups", 
+	"description": "To list all of the available backups of a PostgreSQL or MySQL database cluster, send a GET request to /v2/databases/$DATABASE_ID/backups. Note: Backups are not supported for Redis clusters. The result will be a JSON object with a backups key. This will be set to an array of backup objects, each of which will contain the size of the backup and the timestamp at which it was created.", 
+	"method": "GET", 
+	"sample": "curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/backups'", 
+	"payload": {}
+}

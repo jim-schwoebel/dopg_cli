@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/maintenance", 
+	"description": "To configure the window when automatic maintenance should be performed for a database cluster, send a PUT request to /v2/databases/$DATABASE_ID/maintenance. A successful request will receive a 204 No Content status code with no body in response.", 
+	"method": "PUT", 
+	"sample": "curl -X PUT -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' -d '$PAYLOAD' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/maintenance'", 
+	"payload": {"day": "tuesday", "hour": "14:00"}
+}

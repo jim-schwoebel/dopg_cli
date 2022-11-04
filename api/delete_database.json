@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/dbs/{database_name}", 
+	"description": "To delete a specific database, send a DELETE request to /v2/databases/$DATABASE_ID/dbs/$DB_NAME. A status of 204 will be given. This indicates that the request was processed successfully, but that no response body is needed. Note: Database management is not supported for Redis clusters.", 
+	"method": "DEL", 
+	"sample": "curl -X DELETE -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/dbs/$DATABASE_NAME'", 
+	"payload": {}
+}

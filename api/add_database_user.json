@@ -1,0 +1,7 @@
+{
+	"route": "https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/users", 
+	"description": "To add a new database user, send a POST request to /v2/databases/$DATABASE_ID/users with the desired username. Note: User management is not supported for Redis clusters. When adding a user to a MySQL cluster, additional options can be configured in the mysql_settings object. The response will be a JSON object with a key called user. The value of this will be an object that contains the standard attributes associated with a database user including its randomly generated password.", 
+	"method": "POST", 
+	"sample": "curl -X POST -H 'Content-Type: application/json' -H 'Authorization: Bearer $DIGITALOCEAN_TOKEN' -d '$PAYLOAD' 'https://api.digitalocean.com/v2/databases/$DATABASE_UUID/users'", 
+	"payload": {"name": "app-01"}
+}
