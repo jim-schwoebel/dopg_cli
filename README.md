@@ -20,6 +20,7 @@ You can easily extend this framework to fit your particular use case.
 Some things that DOpg can do include:
 - [query databases](https://github.com/jim-schwoebel/dopg_cli/blob/main/README.md#query-databases) directly through a nice autocompletion widget 
 - [iteract with the DO API seamlessly](https://github.com/jim-schwoebel/dopg_cli/blob/main/README.md#api-commands) in an intuitive and beautiful way (e.g. in tables and pretty printed json); cache api responses in ```api_response.json``` in core folder so you don't need to log this elsewhere
+- [work with doctl](https://github.com/jim-schwoebel/dopg_cli/blob/main/README.md#doctl-commands) - if you prefer DO's command line interface
 - [get postgres doctl and api docs](https://github.com/jim-schwoebel/dopg_cli/blob/main/README.md#docs) from DigitalOcean for easy access
 - [get db pricing from public links](https://github.com/jim-schwoebel/dopg_cli/blob/main/README.md#pricing) - to make it easy to make purchasing decisions
 
