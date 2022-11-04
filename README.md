@@ -493,28 +493,6 @@ python3 cli.py --command pricing
 
 ![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/pricing.gif)
 
-### benchmarking
-WIP - working on adding benchmarking for your configured postgres database:
-
-```
-python3 cli.py --command benchmark
-```
-```diff
-- Note: you should probably only use this on a newly created database.
-```
-
-### tests
-You can do some smoke tests on newly created databases with the following command:
-
-```
-python3 cli.py --command tests
-```
-```diff
-- Note: you should probably only use this on a newly created database.
-```
-
-This command opens up a postgres cluster, inserts a users schema, and inserts a few pieces of data, reads this data, then deletes this data and schema. If tests passed they will be shown using the [unittest module](https://docs.python.org/3/library/unittest.html) in python.
-
 ## references
 🐍 **Python modules** that may help you as you build PostgreSQL applications, as a beginner or an expert:
 * [asyncpg](https://github.com/MagicStack/asyncpg) - a fast PostgreSQL Database Client Library for Python/asyncio
