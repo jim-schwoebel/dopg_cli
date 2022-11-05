@@ -68,7 +68,7 @@ except:
 
 @click.command()
 @click.option("--command", help="Command to operate on a database (see readme.md - e.g. ['query','api','doctl','docs','pricing'])")
-@click.option("--route", help="Specify api route command here (python3 cli.py --command api --route help for a list of routes)")
+@click.option("--route", help="Specify api route command here (for a list of routes, run: 'python3 cli.py --command api --route help')")
     
 def api_init(command, route):
     # actual api response/description routes
