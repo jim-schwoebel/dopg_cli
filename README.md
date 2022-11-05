@@ -64,14 +64,6 @@ Connects with [pgcli](https://github.com/dbcli/pgcli), a really nice interface t
 
 ![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/query.gif)
 
-### doctl commands
-You can also use [doctl](https://github.com/digitalocean/doctl)'s database commands directly - with a nicely formatted output for tables and other types of data. Note that doctl is the python command line interface for digitalocean.
-```
-python3 cli.py --command doctl
-```
-
-![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/doctl.gif)
-
 ### api commands
 [The DigitalOcean API](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) is a great way to get json responses from common routes related to databases.
 
@@ -478,6 +470,14 @@ Outputs pretty printed json:
 ```
 
 ![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/api.gif)
+
+### doctl commands
+You can also use [doctl](https://github.com/digitalocean/doctl)'s database commands directly - with a nicely formatted output for tables and other types of data. Note that doctl is the python command line interface for digitalocean.
+```
+python3 cli.py --command doctl
+```
+
+![](https://github.com/jim-schwoebel/dopg_cli/blob/main/assets/doctl.gif)
 
 ### docs
 You can also get [doctl docs](https://github.com/digitalocean/doctl) and [api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) with this command:

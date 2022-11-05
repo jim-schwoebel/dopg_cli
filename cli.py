@@ -69,11 +69,7 @@ except:
 # api_commands.get_description('database_list', settings) - list will grow
 @click.command()
 @click.option("--command", help="command to operate on database_id or user account")
-@click.option("--api_key", help="API key for your digitalocean account", default=settings['api_token'])
 @click.option("--route", help="Specify api route here")
-
-# benchmarking?
-# test? 
     
 def api_init(command, api_key, route):
     # actual api response/description routes

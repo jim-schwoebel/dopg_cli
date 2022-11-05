@@ -460,16 +460,3 @@ def get_response(command: str, settings: dict, route: str):
 	elif command == 'test':
 		# smoke test on the database 
 		pass 
-		
-## API commands - https://docs.digitalocean.com/reference/api/api-reference/
-def get_description(command: str, settings: dict):
-	curdir=os.getcwd()
-	os.chdir('api')
-	if command=='database_options':
-		# https://api.digitalocean.com/v2/databases/options
-		route=json.load(open('database_options.json'))
-	elif command=='database_list':
-		# https://api.digitalocean.com/v2/databases
-		route=json.load(open('database_list.json'))
-	print_json(data=route)
-	os.chdir(curdir)
