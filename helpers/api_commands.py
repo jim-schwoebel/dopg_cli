@@ -418,12 +418,13 @@ def get_response(command: str, settings: dict, route: str):
 				# print(payload) - testing
 				curl=curl.replace('$DIGITALOCEAN_TOKEN', settings['api_token']).replace('$DATABASE_UUID',settings['database_metadata']['id']).replace('$PAYLOAD',str(json.dumps(payload)))+' &>/dev/null > api_response.json'
 			
-			print(curl) # for testing
+			# print(curl) # for testing (not printing for security reasons / demos)
+			click.echo(click.style('-> Route: '+route+'\n', bold=True, fg='white'))
 			os.system(curl)
 			# get response (.json) and pretty print (this is cached in './api_response.json')
-			api_loading_screen()
-			# for immediate responses, change above line to: 
+			# for immediate responses, change below line to: 
 			# 		api_loading_screen(immediate_response=True)
+			api_loading_screen()
 			try:
 				response=json.load(open('api_response.json'))
 			except:
@@ -437,7 +438,8 @@ def get_response(command: str, settings: dict, route: str):
 			tabulate_api_endpoints(api_dir)
 		else:
 			click.echo(click.style('You have supplied an invalid api command (check the table below) \n', bold=True, fg='red'))
-			
+			tabulate_api_endpoints(api_dir)
+
 	elif command=='pricing':			  
 		# pricing
 		url = 'https://www.digitalocean.com/pricing/managed-databases'
