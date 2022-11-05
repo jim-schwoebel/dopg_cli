@@ -71,7 +71,7 @@ except:
 @click.option("--command", help="command to operate on database_id or user account")
 @click.option("--route", help="Specify api route here")
     
-def api_init(command, api_key, route):
+def api_init(command, route):
     # actual api response/description routes
     if command == 'init':
         get_settings.reload()
