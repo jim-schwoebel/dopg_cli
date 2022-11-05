@@ -66,10 +66,9 @@ except:
     get_settings.reload()
     settings = json.load(open('settings.json'))
 
-# api_commands.get_description('database_list', settings) - list will grow
 @click.command()
-@click.option("--command", help="command to operate on database_id or user account")
-@click.option("--route", help="Specify api route here")
+@click.option("--command", help="Command to operate on a database (see readme.md - e.g. ['query','api','doctl','docs','pricing'])")
+@click.option("--route", help="Specify api route command here (python3 cli.py --command api --route help for a list of routes)")
     
 def api_init(command, route):
     # actual api response/description routes
