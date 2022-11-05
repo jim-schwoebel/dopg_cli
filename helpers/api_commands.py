@@ -323,9 +323,7 @@ def tabulate_api_endpoints(api_dir: str):
 	for file in listdir:
 		if file.endswith('.json'):
 			try:
-				file_data=json.dumps(open(file).read())
-				data=str(json.loads(file_data))
-				data=ast.literal_eval(data)
+				data=json.load(open(file))
 				table.add_row(file.replace('.json',''), str(data['description'])+'\n\n', str(data['method']), str(data['sample']), str(data['payload']))
 			except:
 				print(file)
