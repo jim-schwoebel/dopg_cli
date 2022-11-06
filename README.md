@@ -29,7 +29,7 @@ This first version has only been tested on MacOS.
 
 First, install python3 and doctl [using homebrew](https://brew.sh/):
 ```
-brew install python@3.9, doctl
+brew install python@3.9, postgresql, doctl
 ```
 Now that doctl is installed, initialize it with an auth token:
 ```
