@@ -498,6 +498,7 @@ python3 cli.py --command pricing
 * [psycopg2 module](https://zetcode.com/python/psycopg2/) - for querying databases in python code
 * [pgcli](https://www.pgcli.com/) - command line interface for postgres 
 * [pgloader](https://github.com/dimitri/pgloader) - migrate to PostgreSQL in a single command
+* [python-digitalocean](https://github.com/koalalorenzo/python-digitalocean) - a python command line client for digitalocean generally (mostly droplets)
 * [rich](https://github.com/Textualize/rich) - a Python library for rich text and beautiful formatting in the terminal
 * [sqlalchemy](https://www.sqlalchemy.org/) - database toolkit for python
 * [tpch-pgsql](https://github.com/Data-Science-Platform/tpch-pgsql) - implementing the tpch benchmark for postgres databases
