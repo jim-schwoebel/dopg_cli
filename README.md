@@ -509,7 +509,7 @@ python3 cli.py --command pricing
 * [postgres](https://www.postgresql.org/) - official postgres website
 * [postgres14 features](https://severalnines.com/blog/best-new-features-in-postgresql-14) - why use postgres14 over postgres13
 
-🦈 **DigitalOcean references** that may help you as you use this CLI client:
+🐳 **DigitalOcean references** that may help you as you use this CLI client:
 * [careers page](https://www.digitalocean.com/careers?gh_src=bc47f6b61us) - careers page (we're always hiring!)
 * [digitalocean database api docs](https://docs.digitalocean.com/reference/api/api-reference/#tag/Databases) - api docs with cuRL commands
 * [doctl docs](https://github.com/digitalocean/doctl) - the official command line client for digitalocean
