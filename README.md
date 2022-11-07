@@ -11,7 +11,7 @@
 [![Follow me](https://img.shields.io/github/followers/jim-schwoebel?style=social)](https://github.com/jim-schwoebel?tab=followers)
 &nbsp;
 
-🦈 An unofficial python client for digitalocean postgres clusters (5+ integrations).
+🐍🐳 A python client for digitalocean postgres clusters (5+ integrations).
 
 Uses [click](https://click.palletsprojects.com/en/8.1.x/), [pgcli](https://github.com/dbcli/pgcli), and [rich](https://github.com/Textualize/rich) to create beautiful command line interactions for postgres databases. 
 
